@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>CQRS.Simple.Commanding</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reservations\CheckIn\" />
+    <Folder Include="Reservations\CheckOut\" />
+    <Folder Include="Reservations\Cancel\" />
+    <Folder Include="Reservations\Extend\" />
+    <Folder Include="Reservations\Evict\" />
+  </ItemGroup>
+
+</Project>
