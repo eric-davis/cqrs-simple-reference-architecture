@@ -5,9 +5,4 @@
     <RootNamespace>CQRS.Simple.Querying</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Providers\" />
-  </ItemGroup>
-
 </Project>
